@@ -10,5 +10,12 @@ module.exports = {
   daisyui: {
     themes: ["light", "dark", "cupcake"],
   },
+  theme: {
+    fontFamily: {
+      marhey: [ 'Marhey', 'sans-serif'],
+      dancing: ['Dancing Script', 'cursive']
+    },
+  },
+
 }
 
