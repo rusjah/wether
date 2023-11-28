@@ -20,13 +20,14 @@ function Form({setWether}) {
           wetherData.city = res.data.name;
         
           setWether(i => wetherData)
+          
         })
         .catch(err => console.log(err));
   }
 
   return (
     <form className='join' onSubmit={submitHandler}>
-        <input type="text" name="city" id='city' className="input input-bordered join-item" placeholder="City"/>
+        <input type="text" name="city" id='city' className="input input-bordered join-item opacity-60" placeholder="City"/>
         <button className="btn join-item rounded-r-full" type='submit'>Show wether</button>
     </form>
   )
