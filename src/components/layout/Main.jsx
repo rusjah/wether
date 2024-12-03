@@ -1,10 +1,9 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import Form from '../components/Form'
 import Display from '../components/Display'
 
 function Main() {
   const [wether, setWether] = useState({})
-  const [path, setPath] = useState('default');
   const obj = {
     'o1n': `../video/01n.mp4`,
     'o1d': `../video/01d.mp4`
